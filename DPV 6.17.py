@@ -5,7 +5,7 @@
 #Give an O(nv) dynamic-programming algorithm for the following problem.
 #Input: x1; : : : ; xn; v.
 #Question: Is it possible to make change for v using coins of denominations x1; : : : ; xn?
-import sys
+
 def minCoins(coins,TargetV):
     coinN=len(coins)
     res= [0]* coinN
